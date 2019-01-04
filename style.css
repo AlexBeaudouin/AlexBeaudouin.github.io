@@ -97,6 +97,8 @@ body {
   line-height: 1em;
 }
 
+
+
 #alex {
     transition: opacity 0.5s;
 }
@@ -143,7 +145,7 @@ body {
 .sub1 a {
   margin-left: 0px;
   text-decoration: overline;
-  text-decoration-color: #969696 ;
+  text-decoration-color: #969696;
 
 }
 

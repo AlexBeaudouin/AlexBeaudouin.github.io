@@ -37,7 +37,9 @@
 
     <p> <br> Alexandre Beaudouin-Mackay is currently pursuing an <b>M.Arch</b> at <b>MIT</b>.<br> Originally from Paris, France, he is bilingual <br>in French and English, and received his <br> <b>B.Sc. in Architecture</b> from <b>McGill University</b> in <br> Montreal, Canada.</p>
 
-    <p class="copyright"><br>© 2019, Alexandre Beaudouin-Mackay</p>
+    <p class="subtitles sub1"><a href="mailto:alexbm@mit.edu">alexbm@mit.edu</a> </p>
+
+    <p class="copyright"><br>© 2019, Alexandre Beaudouin-Mackay</p> 
  
   </div>
 
@@ -555,9 +557,9 @@
 
 
 
-<div class="left">
+<div class="left hidden" id="alex">
 
- <h1 class="alex hidden" id="alex"><a href="javascript:gotoPage(1)">Alexandre<br>Beaudouin</a></h1>
+ <h1 class="alex"><a href="javascript:gotoPage(1)">Alexandre<br>Beaudouin</a></h1>
 
  <p class="subtitles"><a href="javascript:gotoPage(2)">Installations</a></p>
  <div id="submenu2" class="submenu">
@@ -603,6 +605,10 @@
     },
     mousewheel: true,
     // forceToAxis: true,
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
     threshold: 5, // min swipe length
     on: {
       slideChange: function() {
@@ -635,6 +641,10 @@
       prevEl: '.swiper-button-prev',
     },
     threshold: 5, // min swipe length
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
     runCallbacksOnInit: true,
     on: {
       slideChange: function() {
